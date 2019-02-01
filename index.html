@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Login page</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="login-page">
+    <div class="container" >
+      <div class="row">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-6 offset-lg-3">
+          <form action="#">
+            <div class="top text-center">
+              <div class="avatar"></div>
+              <div class="subtitle">Welcome,</div>
+              <div class="title">TestLodge</div>
+            </div><!-- End of top -->
+
+
+            <div class="form-fields">
+              <div class="form-group">
+                <label for="email">Email address</label>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    </div>
+                  </div>
+
+                  <input 
+                  id="email" 
+                  type="email" 
+                  name="email"
+                  class="form-control" 
+                  placeholder="Insert your email...">
+                </div><!-- ENd of input-group -->
+              </div><!-- End of form-group -->
+
+
+              <div class="form-group">
+                <label for="password">Password</label>
+
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text">
+                      <i class="fa fa-key" aria-hidden="true"></i>
+                    </div>
+                  </div>
+                  
+                  <input 
+                  id="password" 
+                  type="password" 
+                  name="password"
+                  class="form-control" 
+                  placeholder="********">
+                </div><!-- ENd of input-group -->
+              </div><!-- End of form-group -->
+
+              <div class="row align-items-center">
+                <div class="col-auto">
+                  <div class="custom-control custom-checkbox mr-sm-2">
+                    <input 
+                    type="checkbox" 
+                    class="custom-control-input" 
+                    id="remember">
+
+                    <label 
+                    class="custom-control-label" 
+                    for="remember">Remember me</label>
+                  </div>
+                </div>
+
+                <div class="col-auto forgot-pass">
+                  <a href="#">Forgot password?</a>
+                </div>
+              </div><!-- End of row -->
+            </div><!-- End of form-fields -->
+
+            
+            <button class="btn btn-rounded btn-green btn-block">LOG IN</button>
+
+          </form>
+        </div>
+      </div><!-- End of row -->
+    </div><!-- End of container -->
+  </div><!-- End of login page -->
+</body>
+</html>

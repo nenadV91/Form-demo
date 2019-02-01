@@ -1,0 +1,37 @@
+.btn {
+  font-size: 12px;
+  border-radius: 100px;
+  padding: .575rem 1.25rem;
+  transition: all 0.2s ease-in;
+}
+
+.btn-white {
+  background: $text-white;
+  border: 1px solid $text-white;
+  color: #000;
+
+  &.btn-border {
+    background: transparent;
+    color: $text-white;
+
+    &:hover {
+      background: $text-white;
+      color: #000;
+    }
+  }
+
+  &:hover {
+    background: transparent;
+    color: $text-white;
+  }
+}
+
+.btn-green {
+  background: $green-color;
+  color: white;
+}
+
+.btn-gradient {
+  background-color: $color-gradient;
+  color: $text-white;
+}

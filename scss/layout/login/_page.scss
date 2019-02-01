@@ -1,0 +1,54 @@
+#login-page {
+  background: $bg-color;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  form {
+    background: white;
+    border-top: 8px solid $blue-color;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    padding: 50px 70px;
+
+    @media(max-width: 576px) {
+      padding: 50px 20px;
+    }
+
+    .avatar {
+      margin: 0 auto 25px;
+    }
+
+    .subtitle {
+      color: $text-light;
+      font-size: 1rem
+    }
+
+    .title {
+      font-size: 1.4rem;
+      font-weight: $weight-bold;
+    }
+
+    .form-fields {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+
+    .custom-control {
+      display: flex;
+      align-items: center;
+
+      label:after,
+      label:before {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+
+    .forgot-pass {
+      margin-left: auto;
+    }
+
+  }
+}

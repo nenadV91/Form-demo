@@ -1,0 +1,12 @@
+body {
+  font-family: $font-main;
+  font-weight: $weight-regular;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+p {
+  color: $text-regular;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
